@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.address-container {
+    gap: 80px;
+  
+    .adress .adress-item {
+      margin: 0;
+    }
+  
+    .adress .adress-item img {
+      display: block;
+    }
+  }
+
+header {
+    display: grid;
+    grid-template-columns: 30px 30px;
+    gap: 40px;
+    margin-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.navbar a {
+    color: #000;
+}
+
+.navbar a:hover{
+    text-decoration: 3px red underline;
+}
+
+.underline {
+    text-decoration: 3px red underline;
+    text-align: center;
+}
+
+.click-collect {
+    display: inline-block;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.nav-links a.active {
+    text-decoration: 3px red underline;
+    padding-bottom: 5px;  
+}
+
+.Yummy {
+    color: #E31837;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style:none ;
+}
+
+.nav-links li {
+    margin-right: 20px;   
+}
+
+.nav-links a {
+    /* margin: 0 10px; */
+    text-decoration: none;
+    /* color: #333; */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 30px 30px;
+    gap: 450px;
+    padding: 60px 5%;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.hero-text {
+    flex: 1;
+    width: 350px;
+    padding-top: 10px;
+}
+
+.hero-text h1 {
+    font-size: 2.4em;
+    margin-bottom: 0.5em;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.petit-logo {
+    width: 50px;
+
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 1em;
+    width: 800px;
+}
+
+.hero-text p span{
+    color: #E74C3C;
+    font-weight: bold;
+}
+
+.hero .btn  {
+    display: inline-block;
+    padding: 10px 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #000;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+.adresses {
+    text-align: center;
+    padding: 40px 5%;
+}
+
+.adresses h2 {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.adresse-liste {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.adresse-item {
+    max-width: 300px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.adresse-item img {
+    width: 350px;
+}
+
+.adresse-item p {
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.banniere-commande {
+    background-color: #d94B43;
+    text-align: center;
+    padding: 30px 5%;
+    color: #FFF;
+}
+
+.banniere-commande h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.banniere-commande .btn {
+    background-color: #000;
+}
+
+.savoir-faire {
+    padding: 40px 5%;
+    text-align: center;
+}
+
+.savoir-faire h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.savoir-faire p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.social {
+    padding: 40px 5%;
+    text-align: center;
+}
+
+.social h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.social-galerie{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.social-galerie img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 5%;
+}
+
+.contact h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.contact p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.social-icons img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+footer{
+    text-align: end;
+    background-color: black;
+    padding: 30px;
+}
+
+footer .fin{
+    width: 120px;
+    margin-left: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+}
+
+.S3 .click{
+    margin-top: 90px;
+    background-color: rgb(187, 60, 9);
+    padding: 30px;
+}
+
+.S3 .click p{
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.S3 .top1 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 0.8em;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 560px;
+}
+
+.S3 .savoir .x1{
+    text-align: center;
+    text-decoration: 3px red underline;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.S3 .savoir .x2{
+    margin-right: 60px;
+    margin-left: 210px;
+    font-size: 1.2em;
+}
+
